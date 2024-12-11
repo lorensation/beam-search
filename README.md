@@ -12,3 +12,14 @@ A diferencia del algoritmo **Naive Search**, que expande todos los nodos posible
 Si programamos un traductor con **Naive Search**, cada palabra de un idioma como el español (con miles de palabras en su vocabulario) podría expandir todos los nodos posibles. Esto resultaría en un tiempo de computación elevado y generaría combinaciones innecesarias. En contraste, **Beam Search** limita la expansión a los nodos más prometedores según el modelo heurístico, optimizando el proceso.
 
 ---
+
+## Ejemplos Gráficos
+### Representación visual del algoritmo
+Un diagrama que representa el funcionamiento de **Beam Search** comparado con **Naive Search**:
+
+- **Beam Search**: Solo expande nodos seleccionados según el valor heurístico.
+- **Naive Search**: Expande todos los nodos sin restricciones.
+
+*(Diagrama en preparación: incluir una gráfica de árbol que ilustre el proceso.)*
+
+---
